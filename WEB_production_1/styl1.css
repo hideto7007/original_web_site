@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.top-wapper {
+  text-align: center;
+  background-image: url("https://thumb.photo-ac.com/d7/d799b38399ffd2a007350450e0dd2372_w.jpg");
+  padding: 200px 10px 400px 10px;
+  background-size: cover;
+}
+
+.theme h1 {
+  text-align: center;
+  font-size: 90px;
+  color: blue;
+  position: relative;
+  bottom: 400px;
+}
+
+.text {
+  padding-left: 530px;
+  padding-top: 300px;
+}
+
+.text p {
+  position: relative;
+  right: 500px;
+  bottom: -10px;
+}
+
+.text h2 {
+  position: relative;
+  right: 500px;
+  top: -20px;
+  height: 10px;
+  color: blue;
+  bottom: 20px;
+}
+
+img {
+  position: absolute;
+  top: 950px;
+  left: 20px;
+  z-index: 8;
+  opacity: 0.0;
+  display: none;
+  width: 400px;
+}
+
+img.active {
+  z-index: 10;
+  opacity: 1.0;
+  display: block;
+}
+
+img.last-active {
+  text-align: center;
+  z-index: 9;
+}
+
+.category {
+  list-style: none;
+  height: 10px;
+  position: relative;
+  bottom: -190px;
+  left: 250px;
+}
+
+a {
+  display: list-item;
+  padding: 0.2em;
+}
+
+h4 {
+  text-align: center;
+  padding-right: 0px;
+}
+
+.img2 {
+  background-image: url("https://thumb.photo-ac.com/d7/d78fa2843ef944d662d6500578a0954d_w.jpg");
+  height: 300px;
+  width: 500px;
+  background-size: cover;
+  position: relative;
+  right: 510px;
+  top: 300px;
+}
+
+.text2 h2 {
+  color: blue;
+  position: relative;
+  left: 190px;
+  top: -30px;
+}
+
+.text3 h3 {
+  text-align: center;
+  position: relative;
+  left: 70px;
+  bottom: 10px;
+}
+
+.link a {
+  list-style: none;
+  text-align: center;
+  display: list-item;
+  position: relative;
+  padding: 0.3em;
+  right: 30px;
+  bottom: -10px;
+}
+
+.link2 a {
+  list-style: none;
+  text-align: center;
+  display: list-item;
+  position: relative;
+  padding: 0.3em;
+  left: 220px;
+  bottom: 233px;
+}
+
+.unordered_list {
+  background-color: aquamarine;
+  text-align: center;
+  height: 250px;
+}
+
+h1 {
+  padding-top: 40px;
+}
+
+h6 {
+  position: relative;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  padding: 0.2em;
+  color: black;
+}
+/*# sourceMappingURL=styl1.css.map */
