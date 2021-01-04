@@ -22,7 +22,7 @@
 }
 
 img {
-  left: 290px;
+  left: 200px;
   top: 650px;
   position: absolute;
   z-index: 7;
@@ -100,13 +100,14 @@ a {
   width: 800px;
   position: relative;
   bottom: 920px;
+  left: 100px;
 }
 
 .image1 {
   width: 800px;
   position: relative;
   bottom: 1100px;
-  right: 130px;
+  right: 10px;
 }
 
 .unordered_list {
