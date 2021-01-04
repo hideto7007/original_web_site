@@ -1,11 +1,7 @@
-body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
-}
-
+@charset "UTF-8";
 .top-wapper {
   text-align: center;
-  background-image: url("https://thumb.photo-ac.com/d7/d799b38399ffd2a007350450e0dd2372_w.jpg");
+  background-image: url("C:/Users/81805/OneDrive/デスクトップ/folder/sample5.jpeg");
   padding: 200px 10px 400px 10px;
   background-size: cover;
 }
@@ -15,56 +11,60 @@ body {
   font-size: 90px;
   color: blue;
   position: relative;
-  bottom: 400px;
+  bottom: 500px;
 }
 
-.text {
-  padding-left: 530px;
-  padding-top: 300px;
-}
-
-.text p {
+.category {
+  list-style: none;
+  padding-left: 460px;
   position: relative;
-  right: 500px;
-  bottom: -10px;
-}
-
-.text h2 {
-  position: relative;
-  right: 500px;
-  top: -20px;
-  height: 10px;
-  color: blue;
-  bottom: 20px;
+  bottom: 170px;
 }
 
 img {
+  left: 290px;
+  top: 650px;
   position: absolute;
-  top: 950px;
-  left: 20px;
-  z-index: 8;
-  opacity: 0.0;
-  display: none;
-  width: 400px;
+  z-index: 7;
+  width: 350px;
 }
 
 img.active {
-  z-index: 10;
-  opacity: 1.0;
+  z-index: 20;
   display: block;
 }
 
 img.last-active {
   text-align: center;
-  z-index: 9;
+  z-index: 8;
 }
 
-.category {
-  list-style: none;
-  height: 10px;
+img.active1 {
+  display: block;
+}
+
+/*レイアウト高さ調整*/
+.text {
+  height: 300px;
+}
+
+.text h2 {
+  text-align: center;
+  color: blue;
+  padding-right: 370px;
   position: relative;
-  bottom: -190px;
-  left: 250px;
+  bottom: 370px;
+}
+
+.text p {
+  text-align: center;
+  position: relative;
+  right: 120px;
+  bottom: 390px;
+}
+
+h4 {
+  text-align: center;
 }
 
 a {
@@ -72,53 +72,41 @@ a {
   padding: 0.2em;
 }
 
-h4 {
-  text-align: center;
-  padding-right: 0px;
-}
-
-.img2 {
-  background-image: url("https://thumb.photo-ac.com/d7/d78fa2843ef944d662d6500578a0954d_w.jpg");
-  height: 300px;
-  width: 500px;
-  background-size: cover;
-  position: relative;
-  right: 510px;
-  top: 300px;
-}
-
-.text2 h2 {
+.text h4 {
   color: blue;
+  padding-left: 500px;
   position: relative;
-  left: 190px;
-  top: -30px;
+  bottom: 330px;
 }
 
-.text3 h3 {
+.text h3 {
   text-align: center;
+  padding-left: 560px;
   position: relative;
-  left: 70px;
-  bottom: 10px;
+  bottom: 340px;
 }
 
-.link a {
+.text a {
   list-style: none;
   text-align: center;
   display: list-item;
-  position: relative;
   padding: 0.3em;
-  right: 30px;
-  bottom: -10px;
+  padding-left: 460px;
+  position: relative;
+  bottom: 350px;
 }
 
-.link2 a {
-  list-style: none;
-  text-align: center;
-  display: list-item;
+.image {
+  width: 800px;
   position: relative;
-  padding: 0.3em;
-  left: 220px;
-  bottom: 233px;
+  bottom: 920px;
+}
+
+.image1 {
+  width: 800px;
+  position: relative;
+  bottom: 1100px;
+  right: 130px;
 }
 
 .unordered_list {
