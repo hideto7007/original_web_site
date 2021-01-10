@@ -133,7 +133,8 @@ a {
   color: black;
 }
 
+
 @media only screen and (max-width: 670px){
-  
+  .top-wapper { max-width: 100%; }
 }
 /*# sourceMappingURL=styl1.css.map */
