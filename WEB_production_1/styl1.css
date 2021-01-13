@@ -1,10 +1,11 @@
-@charset "UTF-8";
+
 .top-wapper {
   text-align: center;
   background-image: url("https://hideto7007.github.io/original_web_site/folder/sample5.jpeg");
   padding: 200px 10px 400px 10px;
   background-size: cover;
 }
+
 
 .theme h1 {
   text-align: center;
@@ -14,6 +15,7 @@
   bottom: 500px;
 }
 
+
 .category {
   list-style: none;
   padding-left: 460px;
@@ -21,7 +23,8 @@
   bottom: 170px;
 }
 
-img {
+
+img {    
   left: 290px;
   top: 650px;
   position: absolute;
@@ -29,24 +32,28 @@ img {
   width: 350px;
 }
 
-img.active {
+
+img.active { 
   z-index: 20;
   display: block;
-}
+  }
+
 
 img.last-active {
   text-align: center;
   z-index: 8;
 }
 
-img.active1 {
+img.active1 { 
   display: block;
-}
+  }
+
 
 /*レイアウト高さ調整*/
 .text {
-  height: 300px;
+  height: 300px; 
 }
+
 
 .text h2 {
   text-align: center;
@@ -68,7 +75,7 @@ h4 {
 }
 
 a {
-  display: list-item;
+  display: list-item; 
   padding: 0.2em;
 }
 
@@ -91,7 +98,7 @@ a {
 .text a {
   list-style: none;
   text-align: center;
-  display: list-item;
+  display: list-item; 
   padding: 0.3em;
   padding-left: 460px;
   position: relative;
@@ -105,6 +112,7 @@ a {
   left: 90px;
 }
 
+
 .image1 {
   width: 800px;
   position: relative;
@@ -112,15 +120,17 @@ a {
   right: 120px;
 }
 
+
 .unordered_list {
   background-color: aquamarine;
   text-align: center;
   height: 250px;
-}
+  }
 
 h1 {
   padding-top: 40px;
 }
+
 
 h6 {
   position: relative;
@@ -132,6 +142,7 @@ a {
   padding: 0.2em;
   color: black;
 }
+
 
 /*スマホ向け*/
 @media only screen and (max-width: 480px) {
@@ -165,7 +176,7 @@ a {
     right: 350px;
     top: 70px;
   }
-    .text h2 {
+  .text h2 {
     width: 100%;
     font-size: 12px;
     position: relative;
@@ -241,7 +252,3 @@ a {
     color: black;
   }
 }
-
-
-
-/*# sourceMappingURL=styl1.css.map */
