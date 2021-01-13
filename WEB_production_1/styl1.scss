@@ -1,6 +1,4 @@
 
-
-
 .top-wapper {
   text-align: center;
   background-image: url("https://hideto7007.github.io/original_web_site/folder/sample5.jpeg");
@@ -146,6 +144,7 @@ a {
 }
 
 
+/*スマホ向け*/
 @media only screen and (max-width: 480px) {
   .top-wapper {
     text-align: center;
@@ -177,7 +176,7 @@ a {
     right: 350px;
     top: 70px;
   }
-   .text h2 {
+  .text h2 {
     width: 100%;
     font-size: 12px;
     position: relative;
@@ -253,5 +252,3 @@ a {
     color: black;
   }
 }
-
-
